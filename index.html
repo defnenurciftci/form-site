@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href=""
+      rel="stylesheet"
+    />
+    <title>Form Sayfası</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+    <h1>Form Sayfası</h1>
+    <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <article>
+          <h2>Kullanıcı Bilgi Formu</h2>
+          <form action="#" method="post">
+             <label for="name">Adınız:</label>
+            <input type="text" id="name" name="name" required />
+            <br />
+            <label for="email">E-posta:</label>
+            <input type="email" id="email" name="email" required />
+            <br />
+            <label for="password">password</label>
+            <input type="password" id="password" name="password" required>
+            <br />
+            <label for="gender">Cinsiyet:</label><br>
+            <select id="gender" name="gender" required>
+              <option value="">Seçiniz</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select><br><br>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <br />
+            <form action="#" method="post">
+              <label>
+                <input type="checkbox" name="terms" required>
+                Şartlar ve Koşulları kabul ediyorum
+              </label>   <br><br> 
+            <button type="submit">Gönder</button>
+            <button type="reset" >Temizle</button>
+          </form>
+            <footer>
+                <p>&copy; 2025 Tüm hakları saklıdır. | Geliştirici: Defnenur çiftçi</p>
+            </footer>
+  </body>
+</html>
